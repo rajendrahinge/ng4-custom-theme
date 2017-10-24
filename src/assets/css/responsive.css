@@ -1,0 +1,32 @@
+
+
+@media screen and (max-width: 767px) {
+  .loginWrap {width: 94%; padding: 10px 20px; }
+  .loginWrap .row { margin-bottom: 12px;}
+  .crm-logo {padding-bottom: 0;}
+  .crm-logo img { width: 80px;}
+  .loginWrap h2 {font-size: 22px; padding-bottom: 15px;}
+
+  .hambugerMenu {display: block;}
+  .logo {margin-left: 45px;}
+
+  .mainMenu {
+  	width: 100%;
+  	display: none;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background: #209e91;
+    z-index: 99999;
+  }
+  .mainMenu ul li {display: block;}
+  .mainMenu ul li a {color: #fff; padding: 10px 15px; transition: all 0.5s ease-in-out;}
+  .mainMenu ul li a:hover {background-color: rgba(0,0,0,0.3); color: #fff;}
+
+
+}
+
+@media screen and (min-width: 768px) {
+	.mainMenu {display: block !important;}
+}
+

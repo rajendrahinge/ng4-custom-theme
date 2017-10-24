@@ -1,0 +1,129 @@
+<style type="text/css">
+  .modal .modal-dialog { display: inline;}
+  .modal .modal-content { margin: 0 auto; width: 85%;}
+</style>
+<!-- title goes here -->
+  <div class="pageTitleRow">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-12 col-md-12">
+          <div class="pageTitle">
+            <h1>Dashboard</h1>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End title -->
+  <!-- content part goes here -->
+  <section class="main">
+    <div class="container-fluid">
+      <ng-template #clientsInformationModel let-c="close" class="clientsInformationWrapp" let-d="dismiss">
+        <div class="modal-header">
+          <!-- <h4 class="modal-title">Modal title</h4>
+          <button type="button" class="close" aria-label="Close" (click)="d('Cross click')">
+            <span aria-hidden="true">&times;</span>
+          </button> -->
+        </div>
+        <div class="modal-body">
+          <div class="row"> 
+            <h6 class="modal-title">Add Remark <span class="mandatory">*</span> </h6>
+            <textarea class="form-control" rows="5" id="comment"></textarea>
+          </div>
+          <ngb-tabset>
+            <ngb-tab>
+              <ng-template ngbTabTitle>Retailer Profile</ng-template>
+              <ng-template ngbTabContent>
+                <p>Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth
+                master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh
+                dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry richardson ex squid. Aliquip placeat salvia cillum
+                iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui.</p>
+              </ng-template>
+            </ngb-tab>
+            <ngb-tab>
+              <ng-template ngbTabTitle>SMS</ng-template>
+              <ng-template ngbTabContent>Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid.
+                <p>Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table
+                craft beer twee. Qui photo booth letterpress, commodo enim craft beer mlkshk aliquip jean shorts ullamco ad vinyl
+                cillum PBR. Homo nostrud organic, assumenda labore aesthetic magna delectus mollit. Keytar helvetica VHS salvia
+                yr, vero magna velit sapiente labore stumptown. Vegan fanny pack odio cillum wes anderson 8-bit, sustainable jean
+                shorts beard ut DIY ethical culpa terry richardson biodiesel. Art party scenester stumptown, tumblr butcher vero
+                sint qui sapiente accusamus tattooed echo park.</p>
+              </ng-template>
+            </ngb-tab>
+            <ngb-tab>
+              <ng-template ngbTabTitle>Remark History</ng-template>
+              <ng-template ngbTabContent>
+                <p>Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth
+                master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh
+                dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry richardson ex squid. Aliquip placeat salvia cillum
+                iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui.</p>
+              </ng-template>
+            </ngb-tab>
+            <ngb-tab>
+              <ng-template ngbTabTitle>JBCN</ng-template>
+              <ng-template ngbTabContent>
+                <p>Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth
+                master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh
+                dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry richardson ex squid. Aliquip placeat salvia cillum
+                iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui.</p>
+              </ng-template>
+            </ngb-tab>
+            <ngb-tab>
+              <ng-template ngbTabTitle>Udhaar</ng-template>
+              <ng-template ngbTabContent>
+                <p>Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth
+                master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh
+                dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry richardson ex squid. Aliquip placeat salvia cillum
+                iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui.</p>
+              </ng-template>
+            </ngb-tab>
+            <ngb-tab>
+              <ng-template ngbTabTitle>Order History</ng-template>
+              <ng-template ngbTabContent>
+                <p>Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth
+                master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh
+                dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry richardson ex squid. Aliquip placeat salvia cillum
+                iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui.</p>
+              </ng-template>
+            </ngb-tab>
+            <ngb-tab>
+              <ng-template ngbTabTitle>JustPay</ng-template>
+              <ng-template ngbTabContent>
+                <p>Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth
+                master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh
+                dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry richardson ex squid. Aliquip placeat salvia cillum
+                iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui.</p>
+              </ng-template>
+            </ngb-tab>
+            <ngb-tab>
+              <ng-template ngbTabTitle>Overdue History</ng-template>
+              <ng-template ngbTabContent>
+                <p>Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth
+                master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh
+                dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry richardson ex squid. Aliquip placeat salvia cillum
+                iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui.</p>
+              </ng-template>
+            </ngb-tab>
+            <ngb-tab>
+              <ng-template ngbTabTitle>Add Remark</ng-template>
+              <ng-template ngbTabContent>
+                <p>Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth
+                master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh
+                dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry richardson ex squid. Aliquip placeat salvia cillum
+                iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui.</p>
+              </ng-template>
+            </ngb-tab>
+          </ngb-tabset>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-outline-dark" (click)="c('Close click')">Close</button>
+        </div>
+      </ng-template>
+      
+      <table datatable [dtOptions]="dtOptions" class="row-border hover"></table>
+
+    </div>
+  </section>
+  <!-- End content here -->

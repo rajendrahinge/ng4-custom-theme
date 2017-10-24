@@ -1,0 +1,44 @@
+  <!-- header part goes here -->
+  <header *ngIf="isLogin==false" class="headerBand">
+    <div class="headerTop">
+      <div class="container-fluid">
+        <div class="logo"><a href="#"><img src="../assets/images/white-logo.png" alt=""></a></div>
+
+        <nav class="mainMenu">
+          <ul>
+            <li><a routerLink="/dashboard" routerLinkActive="active">Dashboard</a></li>
+            <li><a href="#">Leads</a></li>
+            <li><a href="#">Edit Requests</a></li>
+            <li><a href="#">Accounts</a></li>
+            <li><a href="#">JBCN</a></li>
+            <li><a href="#">Udhaar</a></li>
+            <li><a href="#">Order History</a></li>
+            <li><a href="#">Disputed Orders</a></li>
+            <li><a href="#">Purchase History</a></li>
+          </ul>
+        </nav>
+
+        <div class="user-profile clearfix">
+            <div class="dropdown al-user-profile">
+              <a aria-expanded="true" class="profile-toggle-link dropdown-toggle" data-toggle="dropdown" id="user-profile-dd">
+                <img src="../assets/images/user-profile.png">
+              </a>
+              <div aria-labelledby="user-profile-dd" class="dropdown-menu top-dropdown-menu profile-dropdown">
+                <li class="dropdown-item"><i class="dropdown-arr"></i></li>
+                
+                <li class="dropdown-item"><a class="signout"><i class="fa fa-power-off"></i>Sign out</a></li>
+                <li class="dropdown-item"><a class="signout"><i class="fa fa-power-off"></i>Sign in</a></li>
+              </div>
+            </div>
+            <div class="profile-user-name">JustCRM Admin</div>
+        </div>
+        
+      </div>
+      <a class="hambugerMenu">
+        <span class="hambuger-bar"></span>
+        <span class="hambuger-bar"></span>
+        <span class="hambuger-bar"></span>
+      </a>
+    </div> 
+  </header>  
+  <!-- End header -->

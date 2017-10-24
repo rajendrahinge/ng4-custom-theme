@@ -1,0 +1,139 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+	background:#fff;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: normal;
+	padding:0;
+	margin:0;
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+
+img {max-width:100%;}
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+.clr {clear:both; overflow:hidden;}
+
+.headerBand {background:#1C2B36;  position:relative;}
+.headerTop {padding:10px 0; clear: both; position: relative;}
+.logo {height:45px; display:block; float: left;}
+.logo img {max-height: 100%;}
+
+.user-profile {float: right; margin-top: 5px;}
+.al-user-profile {
+    float: right;
+    transition: all .15s ease-in-out;
+    padding: 0;
+    width: 36px;
+    height: 36px;
+    border: 0;
+    opacity: 1;
+    position: relative;
+}
+.al-user-profile a {
+    display: block;
+    cursor: pointer;
+}
+.al-user-profile img {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+}
+.profile-user-name {
+    line-height: 36px;
+    color: #fff;
+    float: right;
+    font-weight: 300;
+}
+.user-profile .dropdown-menu {left: inherit; right: 0;}
+.top-dropdown-menu.profile-dropdown a i { margin-right: 10px;}
+
+.pageTitleRow {background: #f0f0f0; padding: 15px 0;}
+.pageTitle h1 {font-size:16px; font-weight:600; display: inline-block;}
+.main {padding: 15px 0;}
+
+
+/* Start Login Page CSS */
+.loginOuter {background: #1C2B36;}
+.loginWrap {background:#209e91; width: 500px; padding: 20px; border-radius: 7px; position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); -webkit-transform: translate(-50%, -50%); -moz-transform: translate(-50%, -50%);}
+.crm-logo {text-align: center; padding-bottom: 10px;}
+.crm-logo img {width: 25%;}
+.loginWrap h2 {text-align: center; color: #fff; font-size: 28px; letter-spacing: 1px; padding-bottom: 20px;}
+.loginWrap .row {margin-bottom: 15px;}
+.signinBtn {background: #1C2B36; font-size: 16px; color: #fff; text-decoration: none;}
+.signinBtn:hover {color: #fff;}
+/* End Login Page CSS */
+
+.hambugerMenu {
+  margin: 0;
+  padding: 7px 5px;
+  background-image: none;
+  cursor: pointer;
+  display: none;
+  position: absolute;
+  left:15px;
+  top:15px;
+}
+.hambugerMenu .hambuger-bar {
+  background: #fff;
+  display: block;
+  width: 22px;
+  height: 3px;
+  margin: 4px 0;
+}
+
+.mainMenu {float: left; padding: 10px 0px;}
+.mainMenu ul {padding: 0; margin: 0; list-style: none;}
+.mainMenu ul li {display: inline-block;}
+.mainMenu ul li a {color: #fff; cursor: pointer; display: block; padding: 5px 10px; text-decoration: none;}
+.mainMenu ul li a:hover {color: #209e91;}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,30 @@
+<form (submit)="chLogin($event)" action="#">
+	<div class="loginWrap">
+		<div class="crm-logo"><img src="../../../../assets/images/white-logo.png"></div>
+		<h2>Sign in to JustCRM</h2>
+		<div class="container-fluid">
+			<div *ngIf="userError || passError" class="row alert alert-danger">
+				<div *ngIf="userError">{{userErrorMsg}}</div>
+				<div *ngIf="passError">{{passErrorMsg}}</div>
+			</div>
+			<div *ngIf="otherError" class="row alert alert-danger">
+				<div *ngIf="otherError">{{otherErrorMsg}}</div>
+			</div>
+			<div class="row">			
+				<div class="col-sm-12 col-md-12">
+					<input type="text" name="username"  class="form-control" [(ngModel)]="username" minlength="4" placeholder="Email Address"/>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-12 col-md-12"> 
+					<input type="password" name="password" class="form-control" [(ngModel)]="password" placeholder="Password" /> 
+				</div>						
+			</div>
+			<div class="row">
+				<div class="col-sm-12 col-md-12">
+					<input class="btn btn-block signinBtn" type="submit" value="Sign in"> 
+				</div>
+			</div>
+		</div>
+	</div>
+</form>
